@@ -1,15 +1,20 @@
 body {
-    background: radial-gradient(circle, rgba(206,254,202,1) 0%, rgba(64,198,88,1) 42%, rgba(0,255,81,1) 100%);
+    background: radial-gradient(circle, rgba(206, 254, 202, 1) 0%, rgba(64, 198, 88, 1) 42%, rgba(0, 255, 81, 1) 100%);
 }
+
 nav {
-    background-color: rgba(0,100,0,0.7);
+    background-color: rgba(0, 100, 0, 0.7);
 }
-li a, li a:hover{
+
+li a,
+li a:hover {
     color: white;
 }
+
 li a:hover {
-    font-weight:  bolder;
+    font-weight: bolder;
 }
+
 h2 {
     font-weight: bolder;
     margin-top: 2rem;
@@ -17,48 +22,62 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .row {
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255, 255, 255, 0.5);
     border: solid white 3px;
     padding: 20px;
     border-radius: 50px;
 }
+
 p {
     text-align: justify;
+    color: black;
 }
+
 p:first-letter {
     font-size: 2rem;
     margin-left: 2rem;
 }
+
 .kepalairas {
     font-size: 1rem;
     font-style: italic;
     text-align: center;
     font-weight: normal;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     text-transform: uppercase;
 }
+
 h3:first-letter {
     font-size: 2.2rem;
 }
+
 .isp {
     font-weight: bolder;
     font-size: 17px;
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
 .isp:first-letter {
     font-size: 17px;
 }
+
 .isu {
     list-style-image: url(kepek/leaf.png);
     margin-left: 40px;
     margin-bottom: 2px;
 }
+
 .logo {
     width: 50px;
 }
+
 .asd {
     border-radius: 20px;
     border: solid black 3px;
